@@ -142,6 +142,14 @@ class _HomeScreenState extends State<HomeScreen> {
             log('Free delivery clicked', name: 'HomeScreen');
           },
         },
+        {
+          'title': 'Special offer: \nBuy 1 Get 1 \nFree today!',
+          'buttonText': 'Shop now',
+          'imagePath': 'assets/images/banner.png',
+          'onPressed': () {
+            log('Special offer clicked', name: 'HomeScreen');
+          },
+        },
       ],
     );
   }
