@@ -41,6 +41,7 @@ dependencies:
   dio: ^5.7.0
   flutter_svg: ^2.0.17
   google_fonts: ^6.2.1
+  carousel_slider: ^5.0.0
 
 dev_dependencies:
   flutter_test:
@@ -60,6 +61,7 @@ dev_dependencies:
 flutter:
   assets:
     - assets/icons/
+    - assets/images/
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

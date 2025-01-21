@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Green {
+  static const Color fromDesign = Color(0xFF4FAF5A);
   static const Color green100 = Color(0xFFEBFFEE);
   static const Color green200 = Color(0xFFCFF7D3);
   static const Color green300 = Color(0xFFAFF4C6);
