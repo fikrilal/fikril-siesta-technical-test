@@ -25,7 +25,6 @@ class BottomNavBar extends StatelessWidget {
 
     return Container(
       decoration: BoxDecoration(border: Border(top: BorderSide(color: Slate.slate200, width: 1.w))),
-      padding: EdgeInsets.symmetric(vertical: 4.h),
       child: BottomNavigationBar(
           items: <BottomNavigationBarItem>[
             BottomNavigationBarItem(
@@ -70,9 +69,9 @@ class BottomNavBar extends StatelessWidget {
           showUnselectedLabels: true,
           type: BottomNavigationBarType.fixed,
           unselectedLabelStyle: GoogleFonts.interTight(
-              fontSize: FontSize.xxsmall, fontWeight: FontWeight.w500, color: Slate.slate500, height: 1.5),
+              fontSize: FontSize.xxsmall, fontWeight: FontWeight.w500, color: Slate.slate500, height: 1.8),
           selectedLabelStyle: GoogleFonts.interTight(
-              fontSize: FontSize.xxsmall, fontWeight: FontWeight.w600, color: Green.fromDesign, height: 1.5)),
+              fontSize: FontSize.xxsmall, fontWeight: FontWeight.w600, color: Green.fromDesign, height: 1.8)),
     );
   }
 }
