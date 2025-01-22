@@ -62,4 +62,22 @@ class CustomIcons {
 
   static SvgPicture starsBold({double? size, Color? color}) =>
       getIcon('stars-bold', size: size, color: color);
+
+  static SvgPicture filterBold({double? size, Color? color}) =>
+      getIcon('filter-bold', size: size, color: color);
+
+  static SvgPicture addBold({double? size, Color? color}) =>
+      getIcon('add-bold', size: size, color: color);
+
+  static SvgPicture editBold({double? size, Color? color}) =>
+      getIcon('edit-bold', size: size, color: color);
+
+  static SvgPicture deleteBold({double? size, Color? color}) =>
+      getIcon('delete-bold', size: size, color: color);
+
+  static SvgPicture calendarBold({double? size, Color? color}) =>
+      getIcon('calendar-bold', size: size, color: color);
+
+  static SvgPicture sadBold({double? size, Color? color}) =>
+      getIcon('sad-bold', size: size, color: color);
 }

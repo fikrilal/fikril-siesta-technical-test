@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class Brand {
   static const Color primary = Color(0xFF7732AD);
+  static const Color secondary = Color(0xFF4635B1);
   static const Color brand100 = Color(0xFFF5F5F5);
   static const Color brand200 = Color(0xFFE6E6E6);
   static const Color brand300 = Color(0xFFD9D9D9);

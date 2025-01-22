@@ -46,6 +46,9 @@ dependencies:
   lottie: ^3.2.0
   fluttertoast: ^8.2.10
   shimmer: ^3.0.0
+  intl: ^0.20.1
+  path_provider: ^2.0.12
+  sqflite: ^2.4.1
 
 dev_dependencies:
   flutter_test:

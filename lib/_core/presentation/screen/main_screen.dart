@@ -67,7 +67,9 @@ class _MainScreenState extends State<MainScreen> {
               ),
               SizedBox(height: 10.h),
               ZoomTapAnimation(
-                onTap: () {},
+                onTap: () {
+                  Get.toNamed(Routes.toDoListScreen);
+                },
                 child: Container(
                   width: double.infinity,
                   padding: EdgeInsets.symmetric(vertical: 32.h, horizontal: 16.w),
@@ -82,6 +84,11 @@ class _MainScreenState extends State<MainScreen> {
                     ),
                   ),
                 ),
+              ),
+              SizedBox(height: 10.h),
+              TypographyStyles.bodyCaptionRegular(
+                'Note: long press the card to edit or delete the task',
+                color: Slate.slate500,
               ),
             ],
           ),
